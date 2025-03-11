@@ -1,7 +1,7 @@
 kind: VirtualService
 apiVersion: networking.istio.io/v1alpha3
 metadata:
-  name: a-set-of-routing-rules-we-can-call-this-anything  # "just" a name for this virtualservice
+  name: a-set-of-routing-rules-we-can-call-this-anything  # "just" a name for this virtualservice and can be anything
   namespace: default
 spec:
   hosts:
